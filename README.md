@@ -23,10 +23,6 @@ This will backup the database `mydatabase`
 
 This will restore the database `mydatabase` from the latest backup file.
 
-## Requirements
-- postgresql
-- postgresql_utils
-
 ## Deployment
 This script can be deployed using nix package manager, you can find an example of a `flake.nix` file in the repository that you can use to deploy the script and its dependencies.
 
